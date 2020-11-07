@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>david@home > newtab</title>
+
+  <style>
+    html {
+      align-items: center;
+      background-color: #000000;
+      color: #c5c8c6;
+      display: flex;
+      font: 18px/1 "Consolas", monospace;
+      height: 100%;
+      justify-content: center;
+    }
+
+    body {
+      background-color: #1d1f21;
+      border-radius: 2px;
+      box-shadow: 1px 1px 6px #1d1f2187;
+      color: #c5c8c6;
+      display: flex;
+      flex-direction: column;
+      min-height: 30ch;
+      min-width: 50vw;
+      padding: 2em;
+    }
+
+    p {
+      margin: 0;
+    }
+
+    p span {
+      color: #b5bd68;
+    }
+
+    a {
+      color: inherit;
+      text-decoration: none;
+    }
+
+    a:focus,
+    a:hover {
+      font-weight: bold;
+    }
+
+    ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+    }
+
+    nav {
+      column-gap: 2em;
+      display: grid;
+      grid-template-columns: auto auto auto auto;
+      padding: 1em 0;
+    }
+
+    ul:nth-child(5n + 1) li:first-child {
+      color: #a54242;
+    }
+
+    ul:nth-child(5n + 2) li:first-child {
+      color: #de935f;
+    }
+    
+    ul:nth-child(5n + 3) li:first-child {
+      color: #f0c674;
+    }
+    
+    ul:nth-child(5n + 4) li:first-child {
+      color: #8c9440;
+    }
+
+    ul:nth-child(5n + 5) li:first-child {
+      color: #85678f;
+    }
+
+    li:first-child {
+      font-weight: bold;
+    }
+
+    li:last-child {
+      margin: 0 0 1em;
+    }
+
+    p #cursor {
+      background-color: #b5bd68;
+      animation: blink 2s infinite;
+    }
+
+    @keyframes blink {
+      0%, 49% { opacity: 0; }
+      50% { opacity: 1; }
+    }
+  </style>
+</head>
+<body>
+  <p><span>david@home &gt; </span>newtab</p>
+
+  <nav>
+    <ul>
+      <li>general</li>
+      <li><a href="https://youtube.com/">youtube</a></li>
+      <li><a href="https://reddit.com/">reddit</a></li>
+      <li><a href="https://twitter.com/">twitter</a></li>
+	  <li><a href="https://twitch.tv/">twitch</a></li>
+    </ul>
+
+    <ul>
+      <li>google</li>
+	  <li><a href="https://mail.google.com/mail/u/0/">gmail</a></li>
+      <li><a href="https://drive.google.com/drive/u/0/my-drive">drive</a></li>
+      <li><a href="https://drive.google.com/drive/u/1/folders/0ALbtoh6mKIGOUk9PVA">giant panda</a></li>
+    </ul>
+
+    <ul>
+      <li>etc</li>
+      <li><a href="https://github.com/h4iyai?tab=stars">github</a></li>
+      <li><a href="https://open.spotify.com/">spotify</a></li>
+    </ul>
+
+  </nav>
+
+  <p><span>david@home &gt; </span> <span id="cursor">_</span></p>
+</body>
+</html>
