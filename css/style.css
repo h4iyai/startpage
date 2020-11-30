@@ -25,7 +25,7 @@ p {
 }
 
 p span {
-    color: #c39ac9;
+    color: #9cd1bb;
 }
 p span {
     font-weight: bold;
@@ -56,7 +56,7 @@ nav {
 
 
 p #cursor {
-    background-color: #c39ac9;
+    background-color:#9cd1bb;
     animation: blink 2s infinite;
 }
 
