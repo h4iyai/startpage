@@ -10,7 +10,7 @@ html {
 
 body {
     background-color: #1a1a1a;
-    box-shadow: 9px 9px 0px #22222287;
+    box-shadow: 9px 9px #22222287;
     color: #ffffff;
     display: flex;
     flex-direction: column;
