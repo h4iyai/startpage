@@ -10,8 +10,7 @@ html {
 
 body {
     background-color: #1a1a1a;
-    box-shadow: 9px 9px 4px #22222287;
-    border-radius: 6px;
+    box-shadow: 9px 9px 0px #22222287;
     color: #ffffff;
     display: flex;
     flex-direction: column;
