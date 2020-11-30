@@ -1,130 +1,23 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <title>hai@home > newtab</title>
-
-  <style>
-    html {
-      align-items: center;
-      background-color: #000000;
-      color: #eaf2f1;
-      display: flex;
-      font: 18px/1 "Consolas", monospace;
-      height: 100%;
-      justify-content: center;
-    }
-
-    body {
-      color: #eaf2f1;
-      display: flex;
-      flex-direction: column;
-      min-height: 30ch;
-      min-width: 50vw;
-      padding: 2em;
-    }
-
-    p {
-      margin: 0;
-    }
-
-    p span {
-      color: #9cd1bb;
-    }
-    
-    p span {
-      font-weight: bold;
-    }
-
-    a {
-      color: inherit;
-      text-decoration: none;
-    }
-
-    a:focus,
-    a:hover {
-      font-weight: bold;
-    }
-
-    ul {
-      list-style-type: none;
-      margin: 0;
-      padding: 0;
-    }
-
-    nav {
-      column-gap: 2em;
-      display: grid;
-      grid-template-columns: auto auto auto auto;
-      padding: 1em 0;
-    }
-
-    ul:nth-child(5n + 1) li:first-child {
-      color: #ff6565;
-    }
-
-    ul:nth-child(5n + 2) li:first-child {
-      color: #ff9b5d;
-    }
-    
-    ul:nth-child(5n + 3) li:first-child {
-      color: #ffd76d;
-    }
-    
-    ul:nth-child(5n + 4) li:first-child {
-      color: #c39ac9;
-    }
-
-    li:first-child {
-      font-weight: bold;
-    }
-
-    li:last-child {
-      margin: 0 0 1em;
-    }
-
-    p #cursor {
-      background-color: #9cd1bb;
-      animation: blink 2s infinite;
-    }
-
-    @keyframes blink {
-      0%, 49% { opacity: 0; }
-      50% { opacity: 1; }
-    }
-  </style>
-</head>
-<body>
-  <p><span>hai@home &gt; </span>newtab</p>
-
-  <nav>
-    <ul>
-      <li>media</li>
-      <li><a href="https://youtube.com/">youtube</a></li>
-      <li><a href="https://twitch.tv/">twitch</a></li>
-	    <li><a href="https://mangadex.org">mangadex</a></li>
-    </ul>
-
-    <ul>
-      <li>social</li>
-      <li><a href="https://reddit.com/">reddit</a></li>
-      <li><a href="https://twitter.com/">twitter</a></li>
-    </ul>
-
-    <ul>
-      <li>google</li>
-	    <li><a href="https://gmail.com">gmail</a></li>
-      <li><a href="https://drive.google.com/">drive</a></li>
-    </ul>
-
-    <ul>
-      <li>etc</li>
-      <li><a href="https://github.com/">github</a></li>
-      <li><a href="https://open.spotify.com/">spotify</a></li>
-      <li><a href="https://anilist.co">anilist</a></li>
-    </ul>
-
-  </nav>
-
-  <p><span>hai@home &gt; </span> <span id="cursor">_</span></p>
-</body>
+    <head>
+        <title>hai@home > newtab</title>
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+    </head>
+    <body>
+        <p><span>hai@home~ > </span>new tab</p>
+        <nav>
+            <ul>
+                <li><a href="https://youtube.com/">youtube</a></li>
+                <li><a href="https://reddit.com/">reddit</a></li>
+                <li><a href="https://twitter.com/">twitter</a></li>
+                <li><a href="https://twitch.tv/">twitch</a></li>
+                <li><a href="https://gmail.com/">gmail</a></li>
+                <li><a href="https://drive.google.com/">drive</a></li>
+                <li><a href="https://github.com/">github</a></li>
+                <li><a href="https://open.spotify.com/">spotify</a></li>
+            </ul>
+        </nav>
+        <p><span>hai@home~ > </span> rice nom nom <span id="cursor">_</span></p>    
+    </body>
 </html>
