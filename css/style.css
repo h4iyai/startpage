@@ -9,8 +9,8 @@ html {
 }
 
 body {
-    background-color: #1C1E26;
-    box-shadow: 9px 9px #2c2c2c87;
+    background-color: #1a1a1a;
+    box-shadow: 9px 9px #24242487;
     color: #ffffff;
     display: flex;
     flex-direction: column;
@@ -25,7 +25,7 @@ p {
 }
 
 p span {
-    color: #B75158;
+    color: #FCE566;
 }
 
 a {
@@ -53,7 +53,7 @@ nav {
 
 
 p #cursor {
-    background-color:#B75158;
+    background-color:#FCE566;
     animation: blink 2s infinite;
 }
 
