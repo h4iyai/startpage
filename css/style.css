@@ -9,8 +9,7 @@ html {
 }
 
 body {
-    background-color: #dddddd;
-    color: #000000;
+    color: #ffffff;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -24,7 +23,7 @@ p {
 }
 
 p span {
-    color: #000000;
+    color: #ffffff;
 }
 
 a {
@@ -52,7 +51,7 @@ nav {
 
 
 p #cursor {
-    background-color:#000000;
+    background-color:#ffffff;
     animation: blink 2s infinite;
 }
 
