@@ -3,7 +3,7 @@ html {
     background-color: #000000;
     color: #ffffff;
     display: flex;
-    font: 18px/1 "CozetteVector", monospace;
+    font: 20px/1 "undefined", monospace;
     height: 100%;
     justify-content: center;
 }
