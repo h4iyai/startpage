@@ -1,5 +1,5 @@
 @font-face {
-    font-family: "CozetteVector";
+    font-family: "undefined";
     font-weight: "normal"
 }
 
@@ -9,7 +9,7 @@
     --foreground: #ffffff;
     --pink: #a1a1a1;
     --red: #a1a1a1;
-    --orange: #b4b4b4;
+    --orange: #aaaaaa;
     --branch: 1px solid #a7a9be;
 }
 
