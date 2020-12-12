@@ -7,10 +7,10 @@
     --font: "CozetteVector";
     --background: #000000;
     --foreground: #ffffff;
-    --pink: #a1a1a1;
-    --red: #a1a1a1;
-    --orange: #aaaaaa;
-    --branch: 1px solid #a7a9be;
+    --pink: #ffffff;
+    --red: #ffffff;
+    --orange: #ffffff;
+    --branch: 1px solid #ffffff;
 }
 
 html {
