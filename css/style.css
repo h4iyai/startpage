@@ -1,10 +1,10 @@
 @font-face {
-    font-family: "undefined";
+    font-family: "CozetteVector";
     font-weight: "normal"
 }
 
 :root {
-    --font: "undefined";
+    --font: "CozetteVector";
     --background: #000000;
     --foreground: #ffffff;
     --pink: #a1a1a1;
@@ -14,7 +14,7 @@
 }
 
 html {
-    font-size: 20px;
+    font-size: 24px;
     font-weight: normal;
 }
 
