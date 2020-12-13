@@ -11,7 +11,7 @@ input {
 body{
 	font-family: CozetteVector, monospace;
 	font-size:12px;
-	background-color:#F8F8F8;
+	background-color:#dddddd;
 	background-image: url("img/bg_tile.jpg");
 	background-repeat: repeat;
 }
@@ -31,7 +31,7 @@ body{
 .main {
 	border-style: solid;
 	border-width: 2px;
-	border-color: #ffffff;
+	border-color: #dddddd;
 	position: absolute;
 	top: -2px;
     width: 536px;
@@ -58,12 +58,12 @@ body{
 	margin-right:2px;
 	border-style: solid;
 	border-width: 2px;
-	border-color: #ffffff;
+	border-color: #dddddd;
 	background-color:#000000;
 }
 
 .button:hover {
-	background-color:#aaaaaa!important;
+	background-color:#000000!important;
 }
 
 .searchbar {
@@ -72,7 +72,7 @@ body{
 	border-color: #000000;
     width: auto;
 	height: 12px;
-	background-color:#FFFFFF;
+	background-color:#dddddd;
 	overflow: hidden;
 }
 
@@ -123,7 +123,7 @@ body{
 .sidebar {
 	border-style: solid;
 	border-width: 2px;
-	border-color: #ffffff;
+	border-color: #dddddd;
 	position: absolute;
 	top: -2px;
 	bottom:200px;
@@ -137,7 +137,7 @@ body{
 }
 
 .time {
-	color:#FFFFFF;
+	color:#dddddd;
 	font-family: CozetteVector, monospace;
 	font-size:12px;
 	position: absolute;
@@ -148,7 +148,7 @@ body{
 }
 
 .welcome {
-	color: #ffffff;
+	color: #dddddd;
 	line-height:18px;
 	font-family: CozetteVector, monospace;
 	font-size:24px;
@@ -214,7 +214,7 @@ a:hover {
 	font-size: 12px;
 	text-decoration:none;
 	line-height: 16px;
-	color:#ffffff;
+	color:#dddddd;
 }
 
 .clink:hover{
