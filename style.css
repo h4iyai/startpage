@@ -11,7 +11,7 @@ input {
 body{
 	font-family: CozetteVector, monospace;
 	font-size:12px;
-	background-color:#dddddd;
+	background-color:#000000;
 	background-image: url("img/bg_tile.jpg");
 	background-repeat: repeat;
 }
