@@ -1,50 +1,102 @@
-<!DOCTYPE html>
+<!--Startpage by Tayumpee-->
+<!--facebook.com/yourwaterlord-->
+
 <html>
-  <head>
-    <meta charset="UTF-8">
-    <link rel="stylesheet" type="text/css" href="css/style.css">
-    <title>h4iyai@home > newtab</title>
-  </head>
-  <body>
-    <div class="container">
-      <div class="prompt">[<span>h4iyai</span>@<span>home</span> ~]$ (*・ω・)ﾉ</div>
-      <div class="tree">
-        <h1>.</h1>
-        <ul>
-          <li>
-            <h1>Media</h1>
-            <ul>
-              <li><a href="https://youtube.com">Youtube</a></li>
-              <li><a href="https://reddit.com">Reddit</a></li>
-              <li><a href="https://twitter.com">Twitter</a></li>
-              <li><a href="https://twitch.tv">Twitch</a></li>
-            </ul>
-          </li>
-          <li>
-            <h1>Google</h1>
-            <ul>
-              <li><a href="https://gmail.com">Gmail</a></li>
-              <li><a href="https://drive.google.com">Drive</a></li>
-            </ul>
-          </li>
-          <li>
-            <h1>Weeb</h1>
-            <ul>
-              <li><a href="https://mangadex.org">Mangadex</a></li>
-              <li><a href="https://anilist.co">Anilist</a></li>
-            </ul>
-          </li>
-          <li>
-            <h1>Etc</h1>
-            <ul>
-              <li><a href="https://github.com">Github</a></li>
-              <li><a href="https://open.spotify.com">Spotify</a></li>
-            </ul>
-          </li>
-        </ul>
-      </div>
-      <div class="prompt">[<span>h4iyai</span>@<span>home</span> ~]$ ヾ(・ω・*)</div>
-      </form>
-    </div>
-  </body>
+	<head>
+		<meta charset="UTF-8" />
+		<title>お帰りなさい, h4iyai</title>
+		<script type="text/javascript" src="jquery-1.11.3.min.js"></script>
+		<script type="text/javascript" src="https://www.google.com/jsapi"></script>
+		<link rel="stylesheet" type="text/css" href="style.css"/>
+		<script type="text/javascript">
+			
+			function show( show1 ) {
+			  document.getElementById(show1).style.display="block";
+			}
+			function hide( hide1 ) {
+			  document.getElementById(hide1).style.display="none";
+			}
+			function tog( tog1 ) {
+			  document.getElementById(tog1).style.backgroundColor="#777777";
+			}
+			function toh( toh1 ) {
+			  document.getElementById(toh1).style.backgroundColor="#ffffff";
+			}
+		</script>
+	</head>
+	<body>
+		<div class="maincontainer">
+			<div class="bottomcontainer">
+				<div class="button" id="btn1" onclick = "show('main1');hide('main2');tog('btn1');toh('btn2');"></div>
+				<div class="button" id="btn2" onclick = "show('main2');hide('main1');tog('btn2');toh('btn1');"></div>
+
+				<div class="marqueebar" id="marqueebar">
+					<marquee class="marquee2"></marquee>
+				</div>
+				<div class="searchbar">
+					<form name="form1" action="http://google.com/search" target="_blank" method="get" >
+						<input type="text" autocomplete="off" placeholder="google search..." name="q" class="searchinput"></input>
+					</form>
+				</div>
+			</div>
+			<div class="time" id="time">
+				<script>
+					//document.getElementById("main").innerHTML = Date();
+					function updateClock() {
+						var days = ['SUNDAY','MONDAY','TUESDAY','WEDNESDAY','THURSDAY','FRIDAY','SATURDAY'];
+						var m = new Date();
+						var dateString =
+						  (days[ m.getDay() ]) + " " +
+						  ("0" + (m.getMonth()+1)).slice(-2) +"/"+
+						  ("0" + m.getDate()).slice(-2) + "/" +
+						  m.getFullYear() +" "+
+						  ("0" + m.getHours()).slice(-2) + ":" +
+						  ("0" + m.getMinutes()).slice(-2) + ":" +
+						  ("0" + m.getSeconds()).slice(-2);
+						
+						// set the content of the element with the ID time to the formatted string
+						document.getElementById('time').innerHTML = dateString;
+
+						// call this function again in 1000ms
+						setTimeout(updateClock, 1000);
+					}
+					updateClock(); // initial call
+				</script>
+			</div>
+			<div class="main" id="main1">
+				<div class="sidebar" style="background-image: url(img/m1.gif);"></div>
+				<div class="welcome">お帰りなさい</div>
+				<div class="bookmarkscontainer">
+					<ul>
+						<li><a href="http://youtube.com" class="clink" target="_blank">youtube</a>
+						<li><a href="http://reddit.com" class="clink" target="_blank">reddit</a>
+						<li><a href="http://twitter.com" class="clink" target="_blank">twitter</a>
+						<li><a href="http://twitch.tv" class="clink" target="_blank">twitch</a>
+					</ul>
+					<ul>
+						<li><a href="http://gmail.com" class="clink" target="_blank">gmail</a>
+						<li><a href="http://drive.google.com" class="clink" target="_blank">drive</a>
+						<li><a href="http://github.com" class="clink" target="_blank">github</a>
+						<li><a href="http://open.spotify.com" class="clink" target="_blank">spotify</a>
+					</ul>
+					<ul>
+						<li><a href="http://mangadex.org" class="clink" target="_blank">mangadex</a>
+						<li><a href="http://reddit.com/r/manga" class="clink" target="_blank">/r/manga</a>
+						<li><a href="http://reddit.com/r/anime" class="clink" target="_blank">/r/anime</a>
+						<li><a href="http://anilist.co" class="clink" target="_blank">anilist</a>
+					</ul>
+					<ul>
+						<li><a href="http://amazon.com" class="clink" target="_blank">amazon</a>
+						<li><a href="http://ebay.com" class="clink" target="_blank">ebay</a>
+						<li><a href="http://reddit.com/r/buildapcsales" class="clink" target="_blank">buildapcsales</a>
+						<li><a href="http://keep.google.com" class="clink" target="_blank">keep</a>
+					</ul>
+				</div>
+			</div>
+			<div class="main" id="main2" style="display:none">
+				<div class="sidebar" style="background-image: url(img/m2.gif);"></div>
+				<div class="main" style="background-image: url(img/m3.gif);"></div>			
+			</div>
+		</div>
+	</body>
 </html>
