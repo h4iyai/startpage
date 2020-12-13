@@ -1,17 +1,16 @@
 @font-face
 {
-    font-family:'haxrcorp';
-    src: url('haxrcorpttf.ttf');
+    font-family:'CozetteVector';
 }
 
 input {
-	font-family: haxrcorp, monospace;
-	font-size:15px;
+	font-family: CozetteVector, monospace;
+	font-size:12px;
 }
 
 body{
-	font-family: haxrcorp, monospace;
-	font-size:15px;
+	font-family: CozetteVector, monospace;
+	font-size:12px;
 	background-color:#F8F8F8;
 	background-image: url("img/bg_tile.jpg");
 	background-repeat: repeat;
@@ -86,8 +85,8 @@ body{
 	margin-right:1px;
 	width:100%;
 	border:none;
-	font-family: haxrcorp, monospace;
-	font-size:15px;
+	font-family: CozetteVector, monospace;
+	font-size:12px;
 	padding-bottom: 0px;
 	padding-top:0px;
 	padding-left:2px;
@@ -139,8 +138,8 @@ body{
 
 .time {
 	color:#FFFFFF;
-	font-family: haxrcorp, monospace;
-	font-size:16px;
+	font-family: CozetteVector, monospace;
+	font-size:12px;
 	position: absolute;
 	top: -18px;
     width: auto;
@@ -151,8 +150,8 @@ body{
 .welcome {
 	color: #ffffff;
 	line-height:18px;
-	font-family: haxrcorp, monospace;
-	font-size:22px;
+	font-family: CozetteVector, monospace;
+	font-size:24px;
 	position:absolute;
 	top:80px;
 	width:300px;
@@ -201,7 +200,7 @@ li:hover {
 
 a {
 	text-decoration:none;
-	font-size:16px;
+	font-size:12px;
 	height:12px;
 	line-height:12px;
 	color:#000000;
@@ -212,7 +211,7 @@ a:hover {
 }
 
 .clink {
-	font-size: 16px;
+	font-size: 12px;
 	text-decoration:none;
 	line-height: 16px;
 	color:#ffffff;
